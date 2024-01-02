@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Delius+Unicase&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 100px;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6F6AF7;
+    height: 4.5rem;
+    position: fixed;
+    width: 100vw;
+    z-index: 9999;
+    top: 0;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    gap: 2.5rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.arrow-down {
+    font-size: small;
+}
+.search {
+    width: 246px;
+    height: 34px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    background: white;
+}
+#inp-txt {
+    width: 80%;
+    height: 100%;
+    border-radius: 25px;
+    border: none;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+}
+.search-bar {
+    font-size: 25px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#inp-txt:focus {
+    outline: none;
+}
+.logo {
+    font-family: 'Delius Unicase', cursive;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+.menu {
+    font-size: 2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* section1 */
+.sec1-main-container {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: auto;
+    margin-top: 5rem;
+}
+.icons {
+    width: 3.3rem;
+    height: 9.3rem;
+    position: sticky;
+    float: right;
+    top: 80px;
+    bottom: 200px;
+    cursor: pointer;
+}
+.left-item {
+    width: 25vw;
+    height: 60vh;
+    border-radius: 15px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+.right-item {
+    width: 60vw;
+    height: 60vh;
+    border: 1px solid black;
+    background-color: #E5D8FF;
+    border-radius: 20px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.right-item p {
+    padding: 20px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* section 2 */
+.sec2-main-cointainer {
+    width: 90vw;
+    margin: auto;
+    margin-top: 7%;
+    display: flex;
+    gap: 2rem;
+    margin-right: 10px;
+}
+.first-card {
+    Width: 337px;
+    height: 145px;
+    background-color: #929DFF;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+.second-card {
+    Width: 337px;
+    height: 145px;
+    background-color: #734CF2;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+.third-card {
+    Width: 337px;
+    height: 145px;
+    background-color: #D288FF;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+.forth-card {
+    Width: 337px;
+    height: 145px;
+    background-color: #000000;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+.first-card p {
+    padding: 0.7rem;
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: white;
+}
+.second-card p {
+    padding: 0.7rem;
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: white;
+}
+.third-card p {
+    padding: 0.7rem;
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: white;
+}
+.forth-card p {
+    padding: 0.7rem;
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+/* section 3  */
+
+.sec3-main-container {
+    width: 90vw;
+    margin: auto;
+    height: 60vh;
+    border-radius: 10px;
+    margin-top: 7%;
+    display: flex;
+    background-color:#483EFF;
+    margin-bottom: 5%;
+}
+
+.left-box {
+    width: 30vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #483EFF;
+}
+
+.right-box {
+    width: 70vw;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 2rem;
+    line-height: 2rem;
+    font-family: DM Sans;
+    font-weight: 500;
+    position: relative;
+    background-color: white;
+}
+
+.right-box p {
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+button {
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    font-family: DM Sans;
+    border: none;
+    width: 100px;
+    position: absolute;
+    right: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.right-arrow {
+    vertical-align: middle;
+    color: white;
+}
+
+.first-box {
+    width: 20vw;
+    border-radius: 12px;
+    height: 12vh;
+    background-color:
+        #BCE0F6;
+    font-size: 20px;
+    font-family: DM Sans;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.second-box {
+    width: 20vw;
+    border: 2px solid white;
+    border-radius: 12px;
+    height: 12vh;
+    background-color:
+        #483EFF;
+    font-size: 20px;
+    font-family: DM Sans;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.third-box {
+    width: 20vw;
+    border: 2px solid white;
+    border-radius: 12px;
+    height: 12vh;
+    background-color:
+        #483EFF;
+    font-size: 20px;
+    font-family: DM Sans;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.chat {
+    width: 90px;
+    height: 90px;
+    right: 35px;
+    border-radius: 50%;
+    position: fixed;
+    cursor: pointer;
+    bottom: 13px;
+}
